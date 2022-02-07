@@ -38,6 +38,7 @@ public class GeometricObject {
         this.dateCreated = dateCreated;
     }
 
+    @Override
     public String toString(){
         SimpleDateFormat dateFormat = new SimpleDateFormat("EEE MMM dd HH:mm:ss");
         return "created on " + dateFormat.format(dateCreated) + "\nColor: " + color + " and filled: " + filled;
