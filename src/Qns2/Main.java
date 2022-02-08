@@ -9,14 +9,14 @@ public class Main {
         Square s = new Square(6,6);
         Shape figref;
         figref = r;
-        System.out.format("Area is %s", figref.area());
+        System.out.format("Area is %.2f\n", figref.area());
         figref = t;
-        System.out.format("Area is %s", figref.area());
+        System.out.format("Area is %.2f\n", figref.area());
         figref = c;
-        System.out.format("Area is %s", figref.area());
+        System.out.format("Area is %.2f\n", figref.area());
         figref = e;
-        System.out.format("Area is %s", figref.area());
+        System.out.format("Area is %.2f\n", figref.area());
         figref = s;
-        System.out.format("Area is %s", figref.area());
+        System.out.format("Area is %.2f\n", figref.area());
     }
 }

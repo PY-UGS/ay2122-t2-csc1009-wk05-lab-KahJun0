@@ -5,8 +5,7 @@ public class Circle extends Shape{
         super(dim1, dim2);
     }
 
-    @Override
     public double area() {
-        return super.PI*Math.pow(super.dim1, 2);
+        return super.PI*super.dim1*super.dim1;
     }
 }
