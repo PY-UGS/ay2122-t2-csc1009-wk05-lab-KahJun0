@@ -1,3 +1,5 @@
+package Qns1;
+
 public class Circle extends GeometricObject{
     private double radius;
 

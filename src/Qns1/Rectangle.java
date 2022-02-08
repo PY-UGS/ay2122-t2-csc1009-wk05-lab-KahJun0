@@ -1,3 +1,5 @@
+package Qns1;
+
 public class Rectangle extends GeometricObject{
 
     private double width;
